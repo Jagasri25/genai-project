@@ -1,0 +1,26 @@
+Front end
+1. Build React-based chatbot dashboard
+2. Implement role-based login UI (Manager should have the read and write access from the chatbot / Team Member should only have the read access from the chatbot)
+3. Integrate azure API calls via frontend
+4. Token-based auth + session handling
+
+Database 
+1. Design scalable schema (projects, users, roles, etc.)
+2. Implement models using SQLAlchemy
+3. give me the 20 tables which should contain the necassary details, and other project related detials in that, each should contain perfect joins in it(a complete database to reterive the information by the agents)
+
+Backend 
+1. Set up FastAPI server
+2. Create RESTful endpoints for CRUD operations
+3. JWT-based role-based authentication
+4. Connect FastAPI with the database (PostgreSQL)
+
+Agents
+1. Integrate LangChain agents
+2. Design and connect tools (like SQL query generator tool)
+3. Parse chatbot input and connect with database queries
+4. Convert natural language queries into actionable results
+
+ The system should allow around team members and manager to interact with the chatbot to ask questions like 'What is Jagasri working on?', 'When is the deadline?', etc. The chatbot should internally use LangChain agents to break down user queries, call appropriate tools (functions), and fetch data from a scalable relational database (PostgreSQL). The project must support role-based access: managers (admins) can update project/team data via chatbot, while team members can only read data. The backend should be built with FastAPI, using SQLAlchemy for ORM and JWT for authentication. The frontend is built with React.
+
+generate me the complete code for all these, as you are the gen ai developer . imagine and get me all the code you will do to develop this usecase

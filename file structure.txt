@@ -1,0 +1,26 @@
+genai-chatbot/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── ...
+│   └── package.json
+├── backend/
+│   ├── app/
+│   │   ├── core/
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   ├── main.py
+│   │   └── ...
+│   ├── requirements.txt
+│   └── Dockerfile
+├── agents/
+│   ├── tools/
+│   ├── agent.py
+│   └── ...
+└── README.md
